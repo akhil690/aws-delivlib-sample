@@ -10,7 +10,3 @@ phases:
   post_build:
     commands:
       - yarn package
-artifacts:
-  files:
-    - "**/*"
-  base-directory: dist
